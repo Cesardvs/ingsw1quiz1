@@ -26,9 +26,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,73 +39,97 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Metodología</h1>
                         <h1 class="mx-auto my-0 text-uppercase">FDD</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> Es una metodología ágil para el desarrollo de sistemas, basado en la calidad del software, que incluye un monitoreo constante del proyecto.</h2>
-                        <a href="https://www.ecured.cu/Metodología_FDD#:~:text=Metodología%20FDD%20(Feature%20Driven%20Development,mediados%20de%20los%20años%2090./"></a>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Método orientado al diseño, desarrollado y refinamiento.</h2>
+                        <a class="btn btn-primary" href="#inicio">Get Started</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Características</h2>
 
-                          <ul class="text-white-50">No hace énfasis en la obtención de los requerimientos sino en como se realizan las fases de diseño y construcción.</ul>  
-                            <a href="https://www.ecured.cu/Metodología_FDD"></a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
-                        </p>
-                    </div>
+        <section class="about-section text-center" id="inicio">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-2 gx-lg-5 justify-content-center">
+                    <div class="col-lg-11">
+                        <h2 class="text-white mb-4">¿Qué es?</h2>
+                          <p class="text-white-50 ">
+                            Es un enfoque ágil para el desarrollo de sistemas, el cual no solo hace énfasis en la obtención de los requerimientos, sino en cómo se realizan las fases de diseño y construcción. Sin embargo, fue diseñado para trabajar con otras actividades de desarrollo de software y no requiere la utilización de ningún modelo de proceso específico.</p>
+                        </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light">
             <div class="container px-4 px-lg-5">
                 <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center ">
+                    <div class="col-xl-8 col-lg-7 ">
+                        <img class="img-fluid mb-0 " src="assets/img/esquema.jpg" alt="Esquema metodologia" />
+                        <p class="text-black-50 mb-0 margins">Imagen tomada de: http://pmideas.es/2020/01/en-que-consiste-el-desarrollo-dirigido-por-caracteristicas-fdd/</p>                </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
+                            <h4>Características</h4>
+                            <br>
+                            <ul class="text-black-50 mb-0">
+                                <li>No hace énfasis en la obtención de los requerimientos sino en como se realizan las fases de diseño y construcción.</li>
+                                <li>Se obtienen resultados periódicos y tangibles.</li>
+                                <li>Propone tener etapas de cierre cada dos semanas.</li>
+                                <li>Define claramente entregas tangibles y formas de evaluación del progreso del proyecto.</li>
+                            </ul>
+                                 </div>                                
                     </div>
-                </div>
+                <div class="col-xl-8 col-lg-7 ">
+                    <h4 class="text-center">Procesos</h4>                    
+                <p class="text-black-50 mb-0 margins">El FDD tiene cinco procesos:</p>
+                <br>
+                Preparar un modelo global con un diagrama de clase UML:
+                <p class="text-black-50 mb-0 margins">
+                Al inicio del desarrollo se construye un modelo teniendo en cuenta la visión, el contesto y los requisitos que debe tener el sistema a construir.
+                </p>
+                Elaborar una lista de características que se espera desarrollar: 
+                <p class="text-black-50 mb-0 margins">Se elabora una lista que resuma las funcionalidades que debe tener el sistema, cuya lista es evaluada por el cliente. Cada funcionalidad de la lista se divide en funcionalidades.
+                </p> 
+                Planificar por funcionalidad: 
+                <p class="text-black-50 mb-0 margins">Se procede a ordenar los conjuntos de funcionalidades conforme a su prioridad y dependencia, y se asigna a los programadores jefes.
+               </p>
+                Diseñar por funcionalidad:
+               <p class="text-black-50 mb-0 margins">Se selecciona un conjunto de funcionalidades de la lista. Este proceso iterativo incluye inspección de diseño, codificación, pruebas unitarias, integración e inspección de código.
+               </p>
+                Desarrollar cada una de las características:
+                <p class="text-black-50 mb-0 margins">Se procede a la construcción total del proyecto.
+                </p>
+               
+            </div>
+            <div class="col-xl-4 col-lg-7">
+                <div class="featured-text text-center text-lg-left">
+                    <img class="img-fluid mb-0 " src="assets/img/caracteristicas.jpg.opdownload" alt="imagen Características" />
+                    <p class="text-black-50 mb-0 margins">Imagen tomada de:</p>
+                    <p class="text-black-50 mb-0 margins"> http://blogevaluacionproyectos.</p>
+                        <p class="text-black-50 mb-0 margins">blogspot.com</p>
+                </div>                                
+            </div>
+            </div>
+            
+            
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <div class="project-text w-100 my-auto justify-content-center">
+                                    <h4 class="text-white">Importancia</h4>
+                                    <div class="row gx-2 gx-lg-5 justify-content-center">
+                                      <div class="col-lg-11">
+                                    <p class="text-white-50"> En la ingeniería de software existen diferentes ramas a escoger para recorrer y progresar en ellas, entre dichas ramas hay una que es esencial, el desarrollo de proyectos.
+                                        Este tema favorece fuertemente el desarrollo basado en características, como por ejemplo: cada componente del producto final ha sido probado y satisface los requerimientos que se soliciten.
+                                        Por este tipo de cualidades y rasgos expuestos en la página, es recomendado saber este tipo de contenido a la hora de crear un proyecto con una buena metodología, además de ser un gran método para enfocarse en el área de desarrollo y gran temática de la ingeniería de software. <p>
+                                        <hr class="d-none d-lg-block mb-0 ms-0" />
+                                   
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
                             </div>
                         </div>
-                    </div>
+
                 </div>
-            </div>
         </section>
         <!-- Signup-->
         <section class="signup-section" id="signup">
@@ -154,39 +177,20 @@
         </section>
         <!-- Contact-->
         <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0">Toda la información mostrada en esta página es de carácter educativo.</h4>                      
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <h4 class="text-uppercase m-0">Referencias:</h4>
+                                <br>
+                                <div class="small text-black-50">
+                                <p>https://www.ecured.cu/Metodología_FDD</p>
+                                <p>http://pmideas.es/2020/01/en-que-consiste-el-desarrollo-dirigido-por-caracteristicas-fdd/</p>
+                                <p>https://fi.ort.edu.uy/innovaportal/file/2021/1/metodologiafdd.pdf.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -195,10 +199,11 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; KonradLorenz 2021|Cesar Varon</div></footer>
+        <footer class="footer bg-black small text-center text-white-50" id="about"><div class="container px-4 px-lg-5">Copyright &copy; KonradLorenz | Cesar David Varon Sanchez | 506191020 | 3 septiembre del 2021 </div>
+        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS--> 
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
